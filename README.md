@@ -1,5 +1,5 @@
 # Udemy-Beginner-Professional-Java
-Learn to Code for Work and Fun
+Learn to Code for Work and Fun (Jenny Brown)
 
 Why am I taking this course?
 
@@ -12,5 +12,8 @@ One thing I found was a recommended course outline from LaunchCode:
 https://www.launchcode.org/assets/LaunchCode_Path_Guide-84d0cd09568ca60c59b770788eebb0c7.pdf
 
 I am taking this course because it is one of the recommended courses.
+
+This course uses the BlueJ Development environment which may be good to use when first learning Java.
+http://www.bluej.org/
 
 
