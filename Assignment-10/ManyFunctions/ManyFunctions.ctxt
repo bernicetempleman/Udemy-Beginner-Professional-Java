@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=num1\ num2
+comment0.target=int\ minimum(int,\ int)
+comment0.text=\r\n\ Takes\ two\ integer\ numbers\ as\ input\ and\ returns\ whichever\ number\ is\ smaller.\r\n
+comment1.params=num1\ num2
+comment1.target=int\ maximum(int,\ int)
+comment1.text=\r\n\ Takes\ two\ integer\ numbers\ as\ input\ and\ returns\ whichever\ number\ is\ larger.\r\n
+comment2.params=number
+comment2.target=boolean\ isOddNumber(int)
+comment2.text=\r\n\ Returns\ true\ if\ the\ integer\ input\ is\ an\ odd\ number\ (1,\ 3,\ 5,\ 7...)\r\n
+comment3.params=number
+comment3.target=boolean\ isEvenNumber(int)
+comment3.text=\r\n\ Returns\ true\ if\ the\ integer\ input\ is\ an\ even\ number\ (0,\ 2,\ 4,\ 6,\ 8...)\r\n
+comment4.params=letter
+comment4.target=boolean\ isVowel(char)
+comment4.text=\r\n\ Returns\ true\ if\ the\ letter\ is\ a\ vowel,\ or\ false\ otherwise.\r\n\ You\ can\ assume\ only\ letters\ are\ being\ sent\ as\ input\ (not\r\n\ spaces\ or\ punctuation\ marks\ or\ anything\ else).\r\n
+comment5.params=letter
+comment5.target=boolean\ isConsonant(char)
+comment5.text=\r\n\ Returns\ true\ if\ the\ letter\ is\ a\ consonant,\ or\ false\ otherwise.\r\n\ You\ can\ assume\ only\ letters\ are\ being\ sent\ as\ input\ (not\r\n\ spaces\ or\ punctuation\ marks\ or\ anything\ else).\r\n\ \r\n\ This\ can\ be\ written\ in\ 1\ short\ line\ of\ code\ without\ typing\ out\r\n\ all\ the\ consonants\ in\ the\ alphabet.\ \ Can\ you\ figure\ out\ how?\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ Runs\ a\ series\ of\ test\ cases\ against\ the\ above\ methods.\r\n\ \r\n\ ***\ DO\ NOT\!\!\!\!\!\ CHANGE\ THE\ CODE\ INSIDE\ main()\ {\ }\r\n\ \r\n\ Just\ use\ this\ as\ an\ example\ of\ how\ the\ methods\ will\ be\ called,\ so\ \r\n\ you\ can\ figure\ out\ what\ they\ are\ supposed\ to\ do.\r\n\ \r\n
+numComments=7
