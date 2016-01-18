@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=board2
+comment0.target=void\ clearBoard(char[][])
+comment1.params=board2
+comment1.target=void\ printBoard(char[][])
+comment2.params=board2\ number\ player2
+comment2.target=boolean\ updateBoard(char[][],\ int,\ char[])
+comment3.params=board2
+comment3.target=boolean\ checkBoardFull(char[][])
+comment4.params=board2
+comment4.target=char\ checkGameOver(char[][])
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
