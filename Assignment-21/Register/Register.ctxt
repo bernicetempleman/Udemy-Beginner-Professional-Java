@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=Product[]\ createMenu()
+comment2.params=products
+comment2.target=void\ printMenu(Product[])
+comment3.params=order
+comment3.target=void\ askForItems(Order)
+numComments=4

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=customerName\ toGo
+comment0.target=Order(java.lang.String,\ boolean)
+comment1.params=
+comment1.target=int\ getOrderNumber()
+comment2.params=item
+comment2.target=void\ add(Product)
+comment3.params=
+comment3.target=java.util.ArrayList\ getItems()
+comment4.params=
+comment4.target=double\ calculateOrder()
+numComments=5
