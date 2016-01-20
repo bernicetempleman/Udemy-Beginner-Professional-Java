@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=pictureUrl\ userName\ realName\ emailAddress
+comment0.target=User(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getPictureUrl()
+comment2.params=
+comment2.target=java.lang.String\ getUserName()
+comment3.params=
+comment3.target=java.lang.String\ getRealName()
+comment4.params=
+comment4.target=java.lang.String\ getEmailAddress()
+comment5.params=usersArray
+comment5.target=void\ displayUsers(User[])
+numComments=6

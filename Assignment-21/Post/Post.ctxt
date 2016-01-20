@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=user\ postDateTime\ postContents
+comment0.target=Post(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=user\ postDateTime\ postContents\ webAddress
+comment1.target=Post(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getUser()
+comment3.params=
+comment3.target=java.lang.String\ getPostDateTime()
+comment4.params=
+comment4.target=java.lang.String\ getPostContents()
+comment5.params=
+comment5.target=java.lang.String\ getWebAddress()
+comment6.params=postsArray
+comment6.target=void\ displayPosts(Post[])
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
