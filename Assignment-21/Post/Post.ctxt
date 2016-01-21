@@ -13,6 +13,4 @@ comment5.params=
 comment5.target=java.lang.String\ getWebAddress()
 comment6.params=postsArray
 comment6.target=void\ displayPosts(Post[])
-comment7.params=args
-comment7.target=void\ main(java.lang.String[])
-numComments=8
+numComments=7
