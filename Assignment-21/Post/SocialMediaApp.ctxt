@@ -1,4 +1,18 @@
 #BlueJ class context
 comment0.params=args
 comment0.target=void\ main(java.lang.String[])
-numComments=1
+comment1.params=posts
+comment1.target=void\ displayPosts(Post[])
+comment2.params=
+comment2.target=void\ displayWelcome()
+comment3.params=users
+comment3.target=void\ displayUsers(User[])
+comment4.params=users\ posts
+comment4.target=void\ displayMenu(User[],\ Post[])
+comment5.params=
+comment5.target=void\ createUser()
+comment6.params=
+comment6.target=void\ becomeUser()
+comment7.params=
+comment7.target=void\ createPost()
+numComments=8
