@@ -40,6 +40,7 @@ import java.util.Scanner;
 public class SocialMediaApp {
     public static void main(String[] args)
     {
+       int intUser = 0;
         //create arrays
         Post[] posts = new Post[5];
         User[] users = new User[3];
@@ -55,31 +56,36 @@ public class SocialMediaApp {
         posts[2] = new Post("User3","Jan 19, 2016 7:37PM", "Keep posting", "123.com");
         posts[3] = new Post("User1", "Jan 19, 2016 7:38PM", "Do I need a web address?");
         posts[4] = new Post("User2","Jan 19, 2016 7:39PM", "Web addresses are optional :-)", "abc.com");
-        
+
         displayMenu(users, posts);
     }
+
     public static void displayPosts(Post[] posts)
     {
         System.out.println("These are the current posts:");
         // Display Posts
         Post.displayPosts(posts);
     }
+
     public static void displayWelcome()
     {
         //Display Welcome
         System.out.println("Welcome to the Social Media Posting Site\n");
     }
+
     public static void displayUsers(User[] users)
     {
         System.out.println("\nThese are the current users::");
         // Display Users
         User.displayUsers(users);
     }
+
     public static void displayMenu(User[] users, Post[] posts)
     {
         String choice = "1";
+        int intUser = 0;
         Scanner keyboard = new Scanner(System.in);
-         //display Menu
+        //display Menu
         do{
 
             System.out.println("        Main Menu");
@@ -89,17 +95,17 @@ public class SocialMediaApp {
             System.out.println("4) Print all posts");
             System.out.println("5) Print all users");
             System.out.println("6) Exit");
-            System.out.println("You are currently user \"pug\". What would you like to do?");
-            
+            System.out.println("You are currently user "+ users[intUser].getUserName() + ". What would you like to do?");
+
             choice = keyboard.nextLine();
-            
+
             if (choice.equals( "1"))
             {
                 createUser();
             }
             else if (choice.equals( "2"))
             {
-                becomeUser();
+                intUser = becomeUser(users);
             }
             else if (choice.equals( "3"))
             {
@@ -123,17 +129,47 @@ public class SocialMediaApp {
             {
                 System.out.println("Invalid choice. Enter 1 - 6: "); 
             }
-          
+
         }while(!(choice.equals( "6")));
     }
+
     public static void createUser()
     {
         System.out.println("Creating a new user");
     }
-    public static void becomeUser()
+
+    public static int becomeUser(User[] users)
     {
-         System.out.println("Becoming an existing user"); 
-    }
+        int intUser = -1;
+        String choice = "";
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Becoming an existing user"); 
+        do{
+            User.displayUsers(users);
+            System.out.println("Which user do you wan to be?");
+            choice = keyboard.nextLine();
+            if (choice.equals( "0"))
+            {
+                intUser = 0;
+            }
+            else if (choice.equals( "1"))
+            {
+                intUser = 1;
+            }
+            else if (choice.equals( "2"))
+            {
+                intUser = 2;
+            }
+            else
+            {
+                System.out.println("Invalid choice. Enter 0 - 2: "); 
+                intUser = -1;
+            }
+
+        }while(intUser == -1);
+        return intUser;
+        }
+
     public static void createPost()
     {
         System.out.println("Creating a post as a current user"); 
