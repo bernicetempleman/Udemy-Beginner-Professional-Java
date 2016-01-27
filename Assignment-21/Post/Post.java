@@ -101,7 +101,15 @@ public class Post {
     {
         return webAddress;
     }
-
+    
+    public static void displayPost(Post[] postsArray, int counter)
+    {
+        System.out.println( postsArray[counter].getPostDateTime()
+            + " "
+            + postsArray[counter].getUser() 
+            + " ("+ postsArray[counter].getWebAddress()+ "):  " 
+            + postsArray[counter].getPostContents());
+    }
     public static void displayPosts(Post[] postsArray)
     {
         for(int counter = 0; counter < postsArray.length;  counter++)

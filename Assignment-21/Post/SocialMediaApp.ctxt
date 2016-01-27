@@ -15,4 +15,6 @@ comment6.params=users
 comment6.target=int\ becomeUser(User[])
 comment7.params=
 comment7.target=void\ createPost()
-numComments=8
+comment8.params=posts\ user
+comment8.target=void\ findLastPost(Post[],\ User)
+numComments=9

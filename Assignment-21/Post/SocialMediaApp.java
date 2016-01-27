@@ -109,6 +109,7 @@ public class SocialMediaApp {
             }
             else if (choice.equals( "3"))
             {
+                findLastPost(posts, users[intUser]);
                 createPost();
             }
             else if (choice.equals( "4"))
@@ -173,5 +174,18 @@ public class SocialMediaApp {
     public static void createPost()
     {
         System.out.println("Creating a post as a current user"); 
+    }
+    
+    public static void findLastPost(Post[] posts, User user)
+    {
+        System.out.println("This was your last post: ");
+        for (int i = posts.length-1; i >=0; i--)
+        {
+            if(posts[i].getUser().equals(user.getUserName()))
+            {
+                Post.displayPost(posts, i);
+                i = -1;
+            }
+        }
     }
 }
